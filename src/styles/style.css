@@ -1,14 +1,15 @@
 #app {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 17px  Helvetica, Arial, sans-serif;
   color: black;
   min-width: 550px;
 }
 a.active {
-  color:orange;
+  color:black;
 }
 nav {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .container{
   flex-wrap: wrap;
 }
+

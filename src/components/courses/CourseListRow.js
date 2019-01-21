@@ -3,7 +3,8 @@ import {Link} from 'react-router';
 
 const CourseListRow = ({course}) =>{
   return (
-    <div className="card cards-list col-lg-4 d-flex ">
+    <div className="list">
+    <div className="card cards-list col-lg-4 d-flex">
       <div className=""><b>Title:</b>
           <a href={course.watchHref} target="_blank">Watch</a>
       </div>
@@ -18,6 +19,8 @@ const CourseListRow = ({course}) =>{
       </div>
       <div className="card-body">{course.length}</div>
     </div>
+
+      </div>
   );
 };
 

@@ -6,30 +6,10 @@ import AboutPage from './components/about/AboutPage';
 import ContactPage from "./components/contact/ContactPage";
 import Courses from "./components/courses/Courses";
 import ManageCoursePage from "./components/courses/ManageCoursePage";
-import ParticleComponent from "./components/ParticlesComponent";
-import
 
 export default  (
   <Route path="/" component={App}>
-    <div
-      style={{
-        position: "absolute",
-        top: 0,
-        left: 0,
-        width: "100%",
-        height: "100%"
-      }}
-    >
-      <ParticleComponent />
-      <div
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%"
-        }}
-      >
+    <div>
         <h1>Testing</h1>
         {/* You can render <Route> and <NavTabs /> here */}
         <IndexRoute component={HomePage}/>
@@ -38,7 +18,7 @@ export default  (
         <Route path="course" component={ManageCoursePage}/>
         <Route path="course/:id" component={ManageCoursePage}/>
         <Route path="contact" component={ContactPage}/>
-      </div>
+
     </div>
 
 

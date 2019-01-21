@@ -1,8 +1,10 @@
 #courses-page{
-  background: cornflowerblue;
+  color: white;
 }
 .cards-list{
   flex-wrap: wrap-reverse;
   padding: 15px;
 }
-
+.list{
+  background-color: white;
+}

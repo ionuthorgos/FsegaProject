@@ -1,7 +1,7 @@
 {
-  "name": "hhhhhsight-redux-starter",
+  "name": "Project",
   "version": "1.0.0",
-  "description": "Starter kit for React and Redux hhhhhsight course by Cory House",
+  "description": "Horgos-Licenta",
   "scripts": {
     "prestart": "babel-node tools/startMessage.js",
     "start": "npm-run-all --parallel test:watch open:src lint:watch",
@@ -71,6 +71,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coryhouse/hhhhhsight-redux-starter"
+    "url": "https://github.com/ionuthorgos/FsegaProject.git"
   }
 }
