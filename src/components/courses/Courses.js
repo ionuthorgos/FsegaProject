@@ -2,7 +2,6 @@ import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from  'redux';
 import * as courseActions from '../../actions/courseActions';
-//import {Link} from 'react-router';
 import CourseList from './CourseList';
 import {browserHistory} from 'react-router';
 
@@ -28,17 +27,6 @@ class Courses extends  React.Component {
                className="btn btn-primary"
                onClick={this.redirectToAddCoursesPage}/>
           <CourseList course={courses}/>
-       {/* <p>Aici se afiseaza ce salvezi</p>
-        <input
-          type="text"
-          onChange={this.onTitleChange}
-          value={this.state.course.title}
-        />
-        <input
-          type="submit"
-          value="Save"
-          onClick={this.onClickSave}
-        />*/}
       </div>
     );
   }
@@ -56,7 +44,6 @@ function  mapStateToProps(state, ownProps) {
 
 function mapDispatchToProps(dispatch){
   return {
-    //createCourse: course => dispatch(courseActions.createCourse(course))
       actions: bindActionCreators(courseActions, dispatch)
   };
 }

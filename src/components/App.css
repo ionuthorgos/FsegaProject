@@ -1,7 +1,6 @@
 body {
   margin: 10px;
-  padding: 0;
+  padding: 10px;
   font-family: sans-serif;
-  background-image: linear-gradient(to right top, #171e1b, #133735, #00515c, #006a8e, #007fc1, #2983d7, #5085e9, #7984f8, #6e7af8, #6471f8, #5867f8, #4c5df7);
-
+  background-image: linear-gradient(to right top, #030209, #070514, #0a081b, #0c0c22, #0a0f2a);
 }

@@ -4,6 +4,7 @@
 .cards-list{
   flex-wrap: wrap-reverse;
   padding: 15px;
+  background-color: white;
 }
 .list{
   background-color: white;
