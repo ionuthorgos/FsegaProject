@@ -1,22 +1,21 @@
 import React, {PropTypes} from 'react';
-
-/*import Header from "./common/Header";*/
 import './App.css';
-import Particles from 'react-particles-js';
 import Header from "./common/Header";
+import Particles from 'react-particles-js';
 
 
 const particleOpt = {
   particles: {
-      number: {
-        value: 150,
-        density: {
-          enable: true,
-          value_area: 800
-        }
+    number: {
+      value: 150,
+      density: {
+        enable: true,
+        value_area: 800
+      }
     }
   }
 };
+
 
 class App extends  React.Component {
   render(){
