@@ -4,12 +4,15 @@
   "description": "Horgos-Licenta",
   "scripts": {
     "prestart": "babel-node tools/startMessage.js",
-    "start": "npm-run-all --parallel test:watch open:src lint:watch",
+    "start": "ng serve",
     "open:src": "babel-node tools/srcServer.js",
-    "lint": "node_modules/.bin/esw webpack.config.* src tools",
+    "lint": "ng lint",
     "lint:watch": "npm run lint -- --watch",
-    "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.test.js\"",
-    "test:watch": "npm run test -- --watch"
+    "test": "ng test",
+    "test:watch": "npm run test -- --watch",
+    "ng": "ng",
+    "build": "ng build",
+    "e2e": "ng e2e"
   },
   "author": "Cory House",
   "license": "MIT",
