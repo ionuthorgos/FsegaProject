@@ -12,11 +12,6 @@ import './styles/contact.css';
 import './styles/courses.css';
 import './styles/homePage.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-//import { store } from 'helpers';
-import { App } from './App/App';
-
-import { configureFakeBackend } from './helpers';
-configureFakeBackend();
 
 const store = configureStore();
 store.dispatch(loadCourses());
@@ -25,7 +20,6 @@ store.dispatch(loadAuthors());
 render(
 
   <Provider store = {store}>
-    <App />
       <Router history={browserHistory} routes={routes}
 
 
