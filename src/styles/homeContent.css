@@ -1,0 +1,10 @@
+.jumbotron{
+/*  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;*/
+  margin: 20px;
+  backgroundColor: '#fff';
+}
+p{
+  margin-left: 2px;
+}
