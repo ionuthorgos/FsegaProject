@@ -10,7 +10,7 @@ import {loadAuthors} from "./actions/authorActions";
 import './styles/style.css';
 import './styles/contact.css';
 import './styles/courses.css';
-import './styles/homePage.css';
+import './styles/homeContent.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 

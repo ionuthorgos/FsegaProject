@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import UserActions from '../actions/user.actions';
 import UserItem from '../user-item/user';
 

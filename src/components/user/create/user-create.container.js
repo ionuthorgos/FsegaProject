@@ -8,7 +8,10 @@ const mapStateToProps = store => ({
 
 const mapDispatchToProps = dispatch => ({
 	getUsersFromContainer : () => dispatch(UserActions.getUsers()),
-	createUser : (data) => dispatch(UserActions.createUser(data)),
+	createUser : (data) => {
+    debugger;
+    dispatch(UserActions.createUser(data))
+  },
 	update : () => dispatch(UserActions.update())
 });
 

@@ -1,8 +1,4 @@
 import React from 'react';
-/*	//import UserItem from './logIn/userItem';	*/
-/*	//import { Redirect } from 'react-router-dom';	*/
-/*	import { push } from 'react-router-redux';	*/
-
 export default class UserCreate extends React.Component {
 
 	constructor(props) {
@@ -20,12 +16,13 @@ export default class UserCreate extends React.Component {
 		this.editEmail = this.editEmail.bind(this);
 		
 		this.createUser = this.createUser.bind(this);
+		this.onSubmit = this.onSubmit.bind(this);
 	}
 
-	onNavigateHome = () => {
+	/*onNavigateHome = () => {
 		window.history.back();
-	};
-		userEdit = () => {
+	};*/
+		userEdit () {
 			this.props.userEdit(this.state.userEdit);
 		};
 
@@ -49,6 +46,11 @@ export default class UserCreate extends React.Component {
 			this.props.createUser(this.state);
 		};
 
+    onSubmit(){
+      return false;
+    }
+
+
 		render() {
 			const {name, email, password} = this.state;
 			return (
@@ -58,9 +60,9 @@ export default class UserCreate extends React.Component {
 						<input type="text" value={name} onChange={this.editName} />
 						<input type="text" value={email} onChange={this.editEmail} />
 						<input type="text" value={password} onChange={this.editPassword} />
-						<input type="submit" value="Creaza user" onClick={this.createUser} />
+						<input type="submit" value="Create user" onClick={this.createUser} />
 					</form>
-						<button type="submit" onClick={this.onNavigateHome}>Back</button>
+
 				</div>
 
 
@@ -68,3 +70,4 @@ export default class UserCreate extends React.Component {
 		}
 }
 
+//conceptul de flux
