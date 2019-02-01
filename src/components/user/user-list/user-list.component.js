@@ -1,5 +1,5 @@
 import React from 'react';
-import UserActions from '../actions/user.actions';
+import UserActions from '../../../actions/user.actions';
 import UserItem from '../user-item/user';
 
 class UserList extends React.Component {

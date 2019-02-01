@@ -13,12 +13,7 @@ const Header = () => {
       {" | "}
       <Link to="/contact" activeClassName="active">Contact</Link>
       {" | "}
-      <Link to="/login" activeClassName="active">Login</Link>
-      {" | "}
-      <Link to="/register" activeClassName="active">Register</Link>
-      {" | "}
       <Link to="/create" activeClassName="active">Create User</Link>
-
     </nav>
 
 

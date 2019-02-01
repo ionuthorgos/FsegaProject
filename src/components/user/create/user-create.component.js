@@ -57,15 +57,13 @@ export default class UserCreate extends React.Component {
 				<div className="App">
 
 					<form onSubmit={this.onSubmit}>
-						<input type="text" value={name} onChange={this.editName} />
-						<input type="text" value={email} onChange={this.editEmail} />
-						<input type="text" value={password} onChange={this.editPassword} />
+						<input type="text" placeholder="name" value={name} onChange={this.editName} /><br />
+						<input type="email" placeholder="email" value={email} onChange={this.editEmail} /><br />
+						<input type="password" placeholder="password" value={password} onChange={this.editPassword} /><br />
 						<input type="submit" value="Create user" onClick={this.createUser} />
 					</form>
 
 				</div>
-
-
 			);
 		}
 }

@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import UserActions from '../actions/user.actions';
+import UserActions from '../../../actions/user.actions';
 import UserEdit from './user-edit.component';
 
 const mapStateToProps = store => ({
