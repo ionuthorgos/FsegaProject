@@ -3,11 +3,10 @@
   color: black;
 
 }
-a.active {
-  color:white;
-}
+
 nav {
-  padding-top: 30px;
+  padding-top: 40px;
+  
 }
 .container{
   flex-wrap: wrap;

@@ -1,3 +1,4 @@
-.carousel{
-  height: 60vh;
+#myCarousel{
+  maxWidth: 360px;
+  height: 200px;
 }

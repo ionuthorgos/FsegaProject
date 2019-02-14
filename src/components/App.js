@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
 import './App.css';
 import Header from "./common/Header";
-import Particles from 'react-particles-js';
+/*import Particles from 'react-particles-js';*/
 
 
 const particleOpt = {
@@ -26,8 +26,8 @@ class App extends  React.Component {
           <div>
             <Header/>
             {this.props.children}
-            <Particles
-              params={particleOpt} />
+        {/*    <Particles
+              params={particleOpt} />*/}
           </div>
 
 

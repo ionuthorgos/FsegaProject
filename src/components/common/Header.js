@@ -1,19 +1,18 @@
 import React from 'react';
 import { Link, IndexLink } from 'react-router';
+import '../../styles/header.css';
 
 const Header = () => {
   return (
 
-    <nav>
-      <IndexLink to="/" activeClassName="active">Home</IndexLink>
+    <nav >
+      <IndexLink to="/" activeClassName="active nav-bar">Home</IndexLink>
       {" | "}
-      <Link to="/about" activeClassName="active">About</Link>
+      <Link to="/courses" activeClassName="active nav-bar">Courses</Link>
       {" | "}
-      <Link to="/courses" activeClassName="active">Courses</Link>
+      <Link to="/contact" activeClassName="active nav-bar">Contact</Link>
       {" | "}
-      <Link to="/contact" activeClassName="active">Contact</Link>
-      {" | "}
-      <Link to="/create" activeClassName="active">Create User</Link>
+      <Link to="/create" activeClassName="active nav-bar">Create User</Link>
     </nav>
 
 
